@@ -1,0 +1,7 @@
+streamlit 
+python-dotenv
+google-generativeai
+requests>=2.27
+fastapi
+uvicorn
+openenv-core>=0.2.0

@@ -1,0 +1,25 @@
+# OpenEnv environment manifest
+# This file is required by the OpenEnv validator.
+
+name: ai-bot
+version: "0.1.0"
+description: "OpenEnv-compatible HTTP environment (FastAPI) + UI (Streamlit)"
+
+interface:
+  type: http
+  endpoints:
+    reset:
+      method: POST
+      path: /openenv/reset
+    step:
+      method: POST
+      path: /openenv/step
+    state:
+      method: GET
+      path: /openenv/state
+
+# Optional metadata
+metadata:
+  repo_layout:
+    dockerfile: Dockerfile
+    api_file: inference.py

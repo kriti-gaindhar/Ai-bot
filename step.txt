@@ -1,0 +1,6 @@
+
+
+
+Chatgpt --> write a code for ml model training 
+function(Query)--> Parameter ---> LLM(GEMINI) -->RESPONSE
+Submit button ---> LLM Call ---> RESPONSE Return
